@@ -1,0 +1,165 @@
+2024-11-25T11:53:15.806+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] j.t.u.UrlShortenerMoiseiApplication      : Starting UrlShortenerMoiseiApplication using Java 17.0.10 with PID 18372 (C:\university\UrlShortenerMoisei\target\classes started by vmoi in C:\university\UrlShortenerMoisei)
+2024-11-25T11:53:15.808+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] j.t.u.UrlShortenerMoiseiApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-25T11:53:15.846+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-25T11:53:15.851+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-25T11:53:16.450+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25T11:53:16.501+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+2024-11-25T11:53:16.902+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-25T11:53:16.911+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-25T11:53:16.911+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-25T11:53:16.951+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-25T11:53:16.951+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1099 ms
+2024-11-25T11:53:16.970+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-25T11:53:17.097+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-25T11:53:17.098+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-25T11:53:17.105+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-25T11:53:17.216+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25T11:53:17.266+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-25T11:53:17.291+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-25T11:53:17.505+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-25T11:53:17.563+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-25T11:53:18.172+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-25T11:53:18.197+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T11:53:18.450+02:00  WARN 18372 --- [UrlShortenerMoisei] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25T11:53:18.694+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-25T11:53:18.721+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-25T11:53:18.728+02:00  INFO 18372 --- [UrlShortenerMoisei] [restartedMain] j.t.u.UrlShortenerMoiseiApplication      : Started UrlShortenerMoiseiApplication in 3.247 seconds (process running for 3.731)
+2024-11-25T11:53:23.806+02:00  INFO 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-25T11:53:23.806+02:00  INFO 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-25T11:53:23.807+02:00  INFO 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-25T11:53:23.946+02:00  INFO 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-2] j.t.u.service.impl.ShortUrlServiceImpl   : Expired ids were requested to remove. Number of removed items: 0
+2024-11-25T11:53:28.548+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-9] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id 'test' was requested but not found
+2024-11-25T11:53:28.555+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jetsoftpro.test.urlshortenermoisei.exception.ShortUrlException: Url with short id 'test' was requested but not found]
+2024-11-25T11:54:03.265+02:00  INFO 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-5] j.t.u.service.impl.ShortUrlServiceImpl   : URL google.com is shortened to id 'test' with lifetime of 100 seconds
+2024-11-25T11:54:08.143+02:00  INFO 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-3] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id test was requested and resolved
+2024-11-25T11:54:08.149+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-7] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id 'google.com' was requested but not found
+2024-11-25T11:54:08.152+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jetsoftpro.test.urlshortenermoisei.exception.ShortUrlException: Url with short id 'google.com' was requested but not found]
+2024-11-25T11:54:09.517+02:00  INFO 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-10] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id test was requested and resolved
+2024-11-25T11:54:09.522+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-4] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id 'google.com' was requested but not found
+2024-11-25T11:54:09.523+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jetsoftpro.test.urlshortenermoisei.exception.ShortUrlException: Url with short id 'google.com' was requested but not found]
+2024-11-25T11:54:17.400+02:00  INFO 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-1] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id test was requested and resolved
+2024-11-25T11:54:17.408+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-2] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id 'google.com' was requested but not found
+2024-11-25T11:54:17.412+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jetsoftpro.test.urlshortenermoisei.exception.ShortUrlException: Url with short id 'google.com' was requested but not found]
+2024-11-25T11:54:17.463+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-9] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id 'favicon.ico' was requested but not found
+2024-11-25T11:54:17.465+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jetsoftpro.test.urlshortenermoisei.exception.ShortUrlException: Url with short id 'favicon.ico' was requested but not found]
+2024-11-25T11:54:46.170+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-6] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id 'google.com' was requested but not found
+2024-11-25T11:54:46.171+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jetsoftpro.test.urlshortenermoisei.exception.ShortUrlException: Url with short id 'google.com' was requested but not found]
+2024-11-25T11:54:46.697+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-5] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id 'favicon.ico' was requested but not found
+2024-11-25T11:54:46.699+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jetsoftpro.test.urlshortenermoisei.exception.ShortUrlException: Url with short id 'favicon.ico' was requested but not found]
+2024-11-25T11:54:53.579+02:00  INFO 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-3] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id test was requested and resolved
+2024-11-25T11:54:55.769+02:00  INFO 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-3] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id test was requested and resolved
+2024-11-25T11:54:57.900+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-7] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id 'google.com' was requested but not found
+2024-11-25T11:54:57.903+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jetsoftpro.test.urlshortenermoisei.exception.ShortUrlException: Url with short id 'google.com' was requested but not found]
+2024-11-25T11:54:59.416+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-8] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id 'favicon.ico' was requested but not found
+2024-11-25T11:54:59.417+02:00  WARN 18372 --- [UrlShortenerMoisei] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jetsoftpro.test.urlshortenermoisei.exception.ShortUrlException: Url with short id 'favicon.ico' was requested but not found]
+2024-11-25T11:55:09.472+02:00  INFO 18372 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-25T11:55:09.633+02:00  INFO 18372 --- [UrlShortenerMoisei] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-25T11:55:09.637+02:00  INFO 18372 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T11:55:09.642+02:00  WARN 18372 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2024-11-25T11:55:09.642+02:00  INFO 18372 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-25T11:55:09.643+02:00  INFO 18372 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-25T11:55:19.908+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] j.t.u.UrlShortenerMoiseiApplication      : Starting UrlShortenerMoiseiApplication using Java 17.0.10 with PID 11320 (C:\university\UrlShortenerMoisei\target\classes started by vmoi in C:\university\UrlShortenerMoisei)
+2024-11-25T11:55:19.910+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] j.t.u.UrlShortenerMoiseiApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-25T11:55:19.950+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-25T11:55:19.951+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-25T11:55:20.559+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25T11:55:20.609+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+2024-11-25T11:55:21.070+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-25T11:55:21.079+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-25T11:55:21.080+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-25T11:55:21.122+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-25T11:55:21.122+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1171 ms
+2024-11-25T11:55:21.145+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-25T11:55:21.277+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-25T11:55:21.279+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-25T11:55:21.288+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-25T11:55:21.398+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25T11:55:21.451+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-25T11:55:21.477+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-25T11:55:21.697+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-25T11:55:21.764+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-25T11:55:22.408+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-25T11:55:22.433+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T11:55:22.691+02:00  WARN 11320 --- [UrlShortenerMoisei] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25T11:55:22.962+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-25T11:55:22.989+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-25T11:55:22.997+02:00  INFO 11320 --- [UrlShortenerMoisei] [restartedMain] j.t.u.UrlShortenerMoiseiApplication      : Started UrlShortenerMoiseiApplication in 3.457 seconds (process running for 4.031)
+2024-11-25T11:55:28.011+02:00  INFO 11320 --- [UrlShortenerMoisei] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-25T11:55:28.011+02:00  INFO 11320 --- [UrlShortenerMoisei] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-25T11:55:28.012+02:00  INFO 11320 --- [UrlShortenerMoisei] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-25T11:55:28.243+02:00  INFO 11320 --- [UrlShortenerMoisei] [http-nio-8080-exec-1] j.t.u.service.impl.ShortUrlServiceImpl   : URL https://www.google.com/ is shortened to id 'test' with lifetime of 100 seconds
+2024-11-25T11:55:34.052+02:00  INFO 11320 --- [UrlShortenerMoisei] [http-nio-8080-exec-3] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id test was requested and resolved
+2024-11-25T11:55:45.625+02:00  INFO 11320 --- [UrlShortenerMoisei] [http-nio-8080-exec-4] j.t.u.service.impl.ShortUrlServiceImpl   : Short url with id 'test' was removed
+2024-11-25T11:55:47.251+02:00  WARN 11320 --- [UrlShortenerMoisei] [http-nio-8080-exec-5] j.t.u.service.impl.ShortUrlServiceImpl   : Short url with id 'test' was requested to remove but not found
+2024-11-25T11:55:47.256+02:00  WARN 11320 --- [UrlShortenerMoisei] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jetsoftpro.test.urlshortenermoisei.exception.ShortUrlException: Short url with id 'test' was requested to remove but not found]
+2024-11-25T11:55:49.571+02:00  WARN 11320 --- [UrlShortenerMoisei] [http-nio-8080-exec-7] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id 'test' was requested but not found
+2024-11-25T11:55:49.572+02:00  WARN 11320 --- [UrlShortenerMoisei] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jetsoftpro.test.urlshortenermoisei.exception.ShortUrlException: Url with short id 'test' was requested but not found]
+2024-11-25T11:56:09.972+02:00  INFO 11320 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-25T11:56:10.134+02:00  INFO 11320 --- [UrlShortenerMoisei] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-25T11:56:10.138+02:00  INFO 11320 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T11:56:10.144+02:00  WARN 11320 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2024-11-25T11:56:10.144+02:00  INFO 11320 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-25T11:56:10.145+02:00  INFO 11320 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-25T12:01:29.413+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] j.t.u.UrlShortenerMoiseiApplication      : Starting UrlShortenerMoiseiApplication using Java 17.0.10 with PID 20844 (C:\university\UrlShortenerMoisei\target\classes started by vmoi in C:\university\UrlShortenerMoisei)
+2024-11-25T12:01:29.415+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] j.t.u.UrlShortenerMoiseiApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-25T12:01:29.455+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-25T12:01:29.455+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-25T12:01:29.999+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25T12:01:30.051+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+2024-11-25T12:01:30.439+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-25T12:01:30.452+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-25T12:01:30.452+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-25T12:01:30.487+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-25T12:01:30.488+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1032 ms
+2024-11-25T12:01:30.506+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-25T12:01:30.646+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-25T12:01:30.647+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-25T12:01:30.655+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-25T12:01:30.757+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25T12:01:30.807+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-25T12:01:30.832+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-25T12:01:31.057+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-25T12:01:31.117+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-25T12:01:31.727+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-25T12:01:31.750+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T12:01:32.026+02:00  WARN 20844 --- [UrlShortenerMoisei] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25T12:01:32.268+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-25T12:01:32.297+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-25T12:01:32.304+02:00  INFO 20844 --- [UrlShortenerMoisei] [restartedMain] j.t.u.UrlShortenerMoiseiApplication      : Started UrlShortenerMoiseiApplication in 3.257 seconds (process running for 3.734)
+2024-11-25T12:01:44.047+02:00  INFO 20844 --- [UrlShortenerMoisei] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-25T12:01:44.048+02:00  INFO 20844 --- [UrlShortenerMoisei] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-25T12:01:44.049+02:00  INFO 20844 --- [UrlShortenerMoisei] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-25T12:01:44.166+02:00  WARN 20844 --- [UrlShortenerMoisei] [http-nio-8080-exec-1] j.t.u.service.impl.ShortUrlServiceImpl   : Invalid url google.com was requested to shorten
+2024-11-25T12:01:44.205+02:00  WARN 20844 --- [UrlShortenerMoisei] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jetsoftpro.test.urlshortenermoisei.exception.ShortUrlException: google.com is invalid url]
+2024-11-25T12:01:48.719+02:00  INFO 20844 --- [UrlShortenerMoisei] [http-nio-8080-exec-3] j.t.u.service.impl.ShortUrlServiceImpl   : URL https://www.google.com/ is shortened to id 'test' with lifetime of 100 seconds
+2024-11-25T12:01:53.728+02:00  INFO 20844 --- [UrlShortenerMoisei] [http-nio-8080-exec-6] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id test was requested and resolved
+2024-11-25T12:01:59.115+02:00  INFO 20844 --- [UrlShortenerMoisei] [http-nio-8080-exec-5] j.t.u.service.impl.ShortUrlServiceImpl   : Short url with id 'test' was removed
+2024-11-25T12:02:01.823+02:00  WARN 20844 --- [UrlShortenerMoisei] [http-nio-8080-exec-7] j.t.u.service.impl.ShortUrlServiceImpl   : Url with short id 'test' was requested but not found
+2024-11-25T12:02:01.824+02:00  WARN 20844 --- [UrlShortenerMoisei] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jetsoftpro.test.urlshortenermoisei.exception.ShortUrlException: Url with short id 'test' was requested but not found]
+2024-11-25T12:02:05.951+02:00  INFO 20844 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-25T12:02:06.111+02:00  INFO 20844 --- [UrlShortenerMoisei] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-25T12:02:06.114+02:00  INFO 20844 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T12:02:06.118+02:00  WARN 20844 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2024-11-25T12:02:06.118+02:00  INFO 20844 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-25T12:02:06.120+02:00  INFO 20844 --- [UrlShortenerMoisei] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
